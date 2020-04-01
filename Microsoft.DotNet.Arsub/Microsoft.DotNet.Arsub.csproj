@@ -10,7 +10,7 @@
     <!-- NuGet Information -->
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>arsub</ToolCommandName>
-    <PackageVersion>0.3.0</PackageVersion>
+    <PackageVersion>0.3.1</PackageVersion>
     <PackageOutputPath>./.nupkg</PackageOutputPath>
     <PackageDescription>Tool to manage subscription to GitHub issues.</PackageDescription>
     <PackageLongDescription>

@@ -113,7 +113,6 @@ namespace Microsoft.DotNet.Arsub.Operations
                         if (mutation.Errors?.Any() != true)
                         {
                             Logger.LogDebug($"GraphQL query mutation result: \n{JsonConvert.SerializeObject(mutation, Formatting.Indented)}");
-                            countSubscribed++;
                         }
                         else
                         {
@@ -122,6 +121,7 @@ namespace Microsoft.DotNet.Arsub.Operations
                             // TODO: retry?
                         }
                     }
+                    countSubscribed++;
                     Console.WriteLine($"{issue.url} => {issue.title}");
                 }
 

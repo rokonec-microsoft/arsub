@@ -2,7 +2,7 @@
   "profiles": {
     "Microsoft.DotNet.Arsub": {
       "commandName": "Project",
-      "commandLineArgs": "subscribe --github-pat 01f4ddfab8359c8293c54b75ed461a38f653c73a --repo rokonec-int-tests/issue-notify-tests --label area-Serialization"
+      "commandLineArgs": "subscribe --label DependencyUpdateError  --repo dotnet/core-eng"
     }
   }
 }
