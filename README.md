@@ -22,7 +22,7 @@ This token is never send anywhere else than GitHub API.
 
 Subscribe to issues which has label area-Serialization AND area-GC-coreclr which has been last modified after 2019-05-30.
 
-`arsub subscribe --label area-Serialization --label area-GC-coreclr -since 2019-05-30`
+`arsub subscribe --label area-Serialization --label area-GC-coreclr --since 2019-05-30`
 
 
 Unsubscribe from issues which has label area-Serialization
