@@ -25,7 +25,7 @@ Subscribe to issues which has label area-Serialization AND area-GC-coreclr which
 `arsub subscribe --label area-Serialization --label area-GC-coreclr --since 2019-05-30`
 
 
-Unsubscribe from issues which has label area-Serialization
+Unsubscribe from issues with label area-Serialization
 
 `arsub unsubscribe --label area-Serialization`
 
